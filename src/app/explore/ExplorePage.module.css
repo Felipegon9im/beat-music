@@ -1,0 +1,25 @@
+.explorePage {
+    padding: 20px;
+  }
+  
+  .albumList, .artistList {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+  }
+  
+  .albumCard, .artistCard {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .albumCard img, .artistCard img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .songList {
+    list-style: none;
+    padding: 0;
+  }
+  

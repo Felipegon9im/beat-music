@@ -1,0 +1,22 @@
+/* app/artists/ArtistsPage.module.css */
+
+.artistsPage {
+    padding: 20px;
+  }
+  
+  .artistList {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .artistCard {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .artistCard img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  

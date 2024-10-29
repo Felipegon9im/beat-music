@@ -1,0 +1,21 @@
+/* app/albums/AlbumsPage.module.css */
+
+.albumsPage {
+    padding: 20px;
+  }
+  
+  .albumList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+  }
+  
+  .albumCard {
+    text-align: center;
+  }
+  
+  .albumCard img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  

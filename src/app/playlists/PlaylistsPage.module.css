@@ -1,0 +1,32 @@
+/* app/playlists/PlaylistsPage.module.css */
+
+.playlistsPage {
+    padding: 20px;
+  }
+  
+  .playlistList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .playlistCard {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .playlistCard img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .playlistCard h3 {
+    margin-top: 8px;
+    font-size: 1.1rem;
+  }
+  
+  .playlistCard p {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
