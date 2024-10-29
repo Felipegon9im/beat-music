@@ -39,7 +39,9 @@ export default function RootLayout({
               <main className="flex-1 overflow-auto">{children}</main>
             </div>
           </div>
+         
         </SidebarProvider>
+        
       </body>
     </html>
   )

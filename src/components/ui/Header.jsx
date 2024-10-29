@@ -6,7 +6,7 @@ const Header = () => {
             <img 
                 src="/headerBlue.png" 
                 alt="Header" 
-                className="w-full rounded"
+                className="w-full rounded-xl"
             />
         </header>
     );
